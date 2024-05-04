@@ -1,0 +1,830 @@
+body,
+html {
+  margin: 0;
+  padding: 0;
+  font-family: "Protest Revolution", sans-serif;
+  font-weight: 400;
+  text-align: center;
+  font-style: normal;
+  background-color: black;
+  overflow-x: hidden;
+}
+.flower {
+  position: absolute;
+  top: 0;
+  right: 0px;
+  margin-top: -50px;
+  /* position: fixed; */
+  margin-right: -50px;
+  position: fixed;
+}
+
+.card {
+  background-color: black;
+  height: 100vh;
+}
+.sidnav {
+  position: fixed;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 100vh;
+}
+.sidnav span {
+  background-color: white;
+  color: black;
+  width: 40px;
+  height: 32px;
+  margin: 5px;
+  border-top-right-radius: 5px;
+  border-bottom-right-radius: 5px;
+  cursor: pointer;
+  border: 2px solid white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.sidnav span:hover {
+  border: 2px solid rgb(69, 116, 137);
+  transition: 0.5s;
+  width: 60px;
+  color: rgb(21, 91, 118);
+  box-shadow: 1px 1px 11px 1px rgb(29, 28, 28);
+}
+a {
+  text-decoration: none;
+  color: black;
+}
+.bg-text {
+  font-family: "Protest Revolution", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  color: white;
+  text-shadow: 1px 1px 1px rgb(22, 92, 119);
+}
+
+.first-page {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.fa-regular,
+.fa-brands {
+  color: white;
+  font-size: larger;
+  margin: 15px;
+}
+.fa-regular:hover {
+  color: rgb(21, 91, 118);
+  transition: 0.8s;
+}
+.fa-brands:hover {
+  color: rgb(21, 91, 118);
+  transition: 0.8s;
+}
+.icons {
+  display: flex;
+}
+.second-page {
+  background-color: black;
+  display: flex;
+
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+.about {
+  width: 500px;
+}
+
+.about-me {
+  font-family: "Protest Revolution", sans-serif;
+  font-weight: 400;
+
+  font-style: normal;
+  color: white;
+  width: 33.3%;
+  line-height: 30px;
+  text-align: start;
+  padding: 50px;
+  padding-top: 20px;
+}
+.image1 {
+  width: 33.3%;
+  padding: 80px;
+}
+.my-image {
+  border: 2px solid white;
+  padding: 18px;
+  border-radius: 63% 35% 35% 75% / 25% 87% 27% 32%;
+}
+.my-image:hover {
+  border: 2px solid rgb(102, 188, 222);
+  transition: 2s;
+  cursor: pointer;
+  box-shadow: 1px 1px 11px 1px rgb(77, 76, 76);
+}
+
+.third-page {
+  display: flex;
+  flex-direction: column;
+  /* background-image: url(/cent.jpg); */
+
+  background: url("cent.jpg") center/cover no-repeat, black;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-size: 1520px;
+  background-repeat: no-repeat;
+}
+.third-page h2 {
+  white-space: 7px;
+  color: white;
+  margin-top: 50px;
+  text-shadow: 3px 4px 2px rgb(22, 92, 119);
+}
+.third-page h2 span {
+  color: white;
+}
+.goals .divv {
+  background-color: white;
+  width: 200px;
+  height: 230px;
+  color: black;
+  margin: 80px;
+  font-family: "Protest Revolution", sans-serif;
+  font-weight: 400;
+  text-align: center;
+  font-style: normal;
+  cursor: pointer;
+  border-radius: 80px;
+
+  border: 3px solid white;
+}
+.dotted-hr {
+  border: 1px dotted white;
+}
+
+.goals .divv:hover {
+  background-color: black;
+  color: white;
+  border: 3px solid rgb(69, 116, 137);
+  transition: 1s ease-in-out;
+  box-shadow: 1px 1px 11px 1px rgb(95, 95, 95);
+}
+.goals h3 {
+  font-family: "Protest Revolution", sans-serif;
+  font-weight: 400;
+  text-align: center;
+  font-style: normal;
+  color: rgb(21, 91, 118);
+}
+.goals {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 100vh;
+}
+audio {
+  width: 200px;
+}
+.fa-laptop:hover {
+  color: rgb(21, 91, 118);
+  transition: 0.8s;
+}
+.goals p {
+  color: #ddb726;
+}
+.fourth-page {
+  background-color: black;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 100vh;
+  padding: 50px;
+  background-image: url(Img/bg33.jpg);
+  background-size: 730px;
+  background-position-x: center;
+
+  opacity: 1;
+  background-repeat: no-repeat;
+}
+
+.education {
+  color: white;
+  font-family: "Protest Revolution", sans-serif;
+  font-weight: 400;
+  text-align: center;
+  font-style: normal;
+}
+.education div {
+  border: 1px solid white;
+  padding: 20px;
+  margin: 20px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+.education div:hover {
+  border: 1px solid rgb(69, 116, 137);
+  transition: 1s;
+  box-shadow: 1px 1px 11px 1px rgb(95, 95, 95);
+}
+.education span {
+  color: #ddb726;
+}
+.about-me span {
+  color: #ddb726;
+}
+
+.about-me h1 {
+  color: rgb(21, 91, 118);
+  background-color: white;
+  width: 250px;
+  text-align: center;
+  padding: 5px;
+  border-radius: 13% 15% 15% 75% / 25% 47% 27% 32%;
+}
+.fifth-page {
+  background-color: black;
+  display: flex;
+
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+.education h1 {
+  color: rgb(21, 91, 118);
+  word-spacing: 8px;
+  background-color: white;
+  width: 300px;
+  border-radius: 13% 18% 45% 85% / 50% 87% 27% 12%;
+}
+
+.edu {
+  display: flex;
+  justify-content: center;
+}
+
+.education h1 span {
+  color: #ddb726;
+}
+
+.education h3 {
+  letter-spacing: 6px;
+  text-shadow: 3px 4px 2px rgb(22, 92, 119);
+}
+
+.pro-topic {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  width: 10%;
+}
+.pro-content {
+  font-family: "Protest Revolution", sans-serif;
+  font-weight: 600;
+  width: 36.3%;
+  font-style: normal;
+  font-size: larger;
+  color: white;
+}
+.mobile {
+  margin-top: 30px !important;
+  text-shadow: 3px 4px 2px rgb(22, 92, 119);
+}
+.twoset {
+  display: flex;
+  justify-content: center;
+}
+.threeset {
+  display: flex;
+  justify-content: center;
+}
+.pro-topic button {
+  margin: 20px;
+  margin-top: 0px;
+  cursor: pointer;
+  width: 120px;
+  height: 50px;
+  font-family: "Protest Revolution", sans-serif;
+  font-weight: 600;
+  text-align: center;
+  font-style: normal;
+  font-size: larger;
+  border: 2px solid white;
+  border-radius: 5px;
+}
+.pro-topic button:hover {
+  border: 3px solid rgb(69, 116, 137);
+  transition: 1s;
+  box-shadow: 1px 1px 11px 1px rgb(95, 95, 95);
+}
+.pro-topic button:nth-child(odd) {
+  color: rgb(21, 91, 118);
+}
+.pro-topic button:nth-child(even) {
+  color: #ddb726;
+}
+.sixth-page {
+  background-color: black;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 100vh;
+  color: white;
+  font-family: "Protest Revolution", sans-serif;
+  background-image: url(Img/flowerss-removebg-preview.png);
+  background-position-x: right;
+  background-position-y: bottom;
+
+  background-repeat: no-repeat;
+  background-size: 170px;
+
+  font-weight: 400;
+  text-align: center;
+
+  font-style: normal;
+}
+.outer {
+  position: relative;
+  top: 80px;
+  left: 50px;
+}
+.sentence {
+  color: white;
+  /* text-shadow: 3px 4px 2px rgb(22, 92, 119); */
+  /* border: 2px solid white;
+  padding: 20px; */
+
+  width: fit-content;
+  border-radius: 72% 45% 65% 15% / 55% 67% 37% 32%;
+}
+.project {
+  display: flex;
+  justify-content: space-around;
+}
+.input-me {
+  display: flex;
+  flex-direction: column;
+  text-align: start;
+  margin: 10px;
+}
+.input-me input {
+  border-radius: 5px;
+  height: 30px;
+  font-family: "Protest Revolution", sans-serif;
+  font-weight: 400;
+  text-align: start;
+  font-style: normal;
+}
+.input-me textarea {
+  border-radius: 5px;
+  font-family: "Protest Revolution", sans-serif;
+  font-weight: 400;
+  text-align: start;
+  font-style: normal;
+  height: 50px;
+}
+.input-me label {
+  margin: 5px;
+}
+.sixth-page .get {
+  color: rgb(21, 91, 118);
+}
+.sixth-page .touch {
+  color: #ddb726;
+}
+.sixth-page h1 {
+  word-spacing: 12px;
+  text-align: start;
+  color: rgb(160, 158, 158);
+  background-color: white;
+  border-radius: 12% 45% 65% 15% / 55% 17% 37% 32%;
+  width: 270px;
+}
+
+.form {
+  /* width: 40%;
+  padding: 100px; */
+  width: 500px;
+  height: 350px;
+  margin-right: 80px;
+}
+/* .form form {
+ 
+} */
+.image-last {
+  width: 40%;
+  display: flex;
+}
+.image-last img {
+  border: 2px solid white;
+  padding: 18px;
+
+  border-radius: 53% 47% 50% 55% / 20% 87% 97% 32%;
+}
+.details-total {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.details {
+  color: white;
+  border: 2px solid white;
+  border-radius: 23% 45% 65% 75% / 65% 87% 97% 32%;
+position: relative;
+  padding: 5px;
+  margin-left: 100px;
+  
+}
+#abbr {
+  color: white;
+}
+.error {
+  color: red;
+}
+.submit {
+  font-family: "Protest Revolution", sans-serif;
+  font-weight: 400;
+  text-align: center;
+  font-style: normal;
+  background-color: rgb(69, 116, 137);
+  color: white;
+  width: 150px;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+.submit:hover {
+  transition: 1s;
+  box-shadow: 1px 1px 11px 1px rgb(95, 95, 95);
+}
+.pro-img {
+  border-radius: 7px;
+}
+.pro-image {
+  width: 33.3%;
+}
+.content-5 {
+  /* margin: 20px; */
+}
+.content-4 {
+  /* margin: 20px; */
+}
+#para2 {
+  width: 280px;
+}
+.content-3 {
+  overflow: scroll;
+  width: 60%;
+  height: 250px;
+  color: black;
+  background-color: rgb(239, 234, 184);
+  border-radius: 7px;
+  /* margin: 10px;
+  padding: 5px; */
+  text-align: start;
+}
+.content-2 {
+  width: 40%;
+  height: 250px;
+  border-radius: 7px;
+  /* margin: 20px; */
+}
+.content-1 {
+  /* margin: 20px; */
+}
+
+/* cssborder */
+.css1 {
+  border: 2px solid white;
+  border-radius: 93% 45% 65% 75% / 65% 87% 97% 32%;
+
+  transition: 1s;
+  /* margin: 20px;
+  padding: 10px; */
+}
+.css2 {
+  border: 2px solid white;
+  border-radius: 53% 47% 50% 75% / 90% 87% 97% 32%;
+
+  transition: 1s;
+  /* margin: 20px;
+  padding: 10px; */
+}
+
+.css4 {
+  border: 2px solid white;
+  border-radius: 23% 45% 65% 75% / 65% 87% 97% 32%;
+
+  transition: 1s;
+  /* margin: 20px;
+  padding: 10px; */
+}
+
+.css5 {
+  border: 2px solid white;
+  border-radius: 83% 45% 65% 75% / 65% 87% 97% 32%;
+
+  transition: 1s;
+  /* margin: 20px;
+  padding: 10px; */
+}
+.bs1 {
+  border: 2px solid white;
+  border-radius: 13% 55% 65% 75% / 65% 57% 97% 12%;
+
+  transition: 1s;
+  /* margin: 20px; */
+}
+.bs2 {
+  border: 2px solid white;
+  border-radius: 13% 17% 10% 15% / 80% 17% 17% 12%;
+
+  transition: 1s;
+  /* margin: 20px; */
+}
+.bs4 {
+  border: 2px solid white;
+  border-radius: 83% 55% 90% 85% / 15% 87% 67% 22%;
+
+  transition: 1s;
+  /* margin: 20px; */
+}
+
+.bs5 {
+  border: 2px solid white;
+  border-radius: 23% 50% 20% 75% / 65% 30% 97% 32%;
+
+  transition: 1s;
+  /* margin: 20px; */
+}
+.js1 {
+  border: 2px solid white;
+  border-radius: 13% 55% 65% 75% / 65% 57% 97% 12%;
+
+  transition: 1s;
+  /* margin: 20px;
+  padding: 10px; */
+}
+.js2 {
+  border: 2px solid white;
+  border-radius: 50% 27% 20% 75% / 80% 77% 87% 92%;
+
+  transition: 1s;
+  /* margin: 20px;
+  padding: 10px; */
+}
+.js4 {
+  border: 2px solid white;
+  border-radius: 23% 55% 40% 85% / 75% 17% 97% 12%;
+
+  transition: 1s;
+  /* margin: 20px;
+  padding: 10px; */
+}
+
+.js5 {
+  border: 2px solid white;
+  border-radius: 13% 80% 70% 75% / 35% 80% 17% 32%;
+
+  transition: 1s;
+  /* margin: 20px;
+  padding: 10px; */
+}
+
+.react1 {
+  border: 2px solid white;
+  border-radius: 10% 15% 15% 15% / 15% 17% 17% 12%;
+  /* padding: 4px; */
+  transition: 1s;
+  /* margin: 20px; */
+}
+.react2 {
+  border: 2px solid white;
+  border-radius: 10% 17% 10% 15% / 10% 17% 17% 12%;
+  /* padding: 4px; */
+  transition: 1s;
+  /* margin: 20px; */
+}
+.react4 {
+  border: 2px solid white;
+  border-radius: 13% 15% 11% 15% / 15% 37% 67% 12%;
+  /* padding: 7px; */
+  transition: 1s;
+  /* margin: 20px; */
+}
+.reactcrud1 {
+  border: 2px solid white;
+  border-radius: 10% 15% 15% 15% / 15% 17% 17% 12%;
+
+  transition: 1s;
+  /* margin: 20px; */
+  /* padding: 10px; */
+}
+.reactcrud2 {
+  border: 2px solid white;
+  border-radius: 10% 17% 10% 15% / 10% 17% 17% 12%;
+
+  transition: 1s;
+  /* margin: 20px;
+  padding: 10px; */
+}
+.reactcrud4 {
+  border: 2px solid white;
+  border-radius: 13% 15% 11% 15% / 15% 17% 17% 12%;
+
+  transition: 1s;
+  /* margin: 20px;
+  padding: 10px; */
+}
+.reactcrud5 {
+  border: 2px solid white;
+  border-radius: 10% 15% 15% 15% / 15% 17% 17% 12%;
+
+  transition: 1s;
+  /* margin: 20px;
+  padding: 10px; */
+}
+
+.react5 {
+  border: 2px solid white;
+  border-radius: 13% 10% 50% 15% / 15% 11% 37% 12%;
+
+  transition: 1s;
+  /* margin: 20px;
+  padding: 10px; */
+}
+
+.redux1 {
+  border: 2px solid white;
+  border-radius: 50% 55% 55% 55% / 55% 57% 57% 52%;
+
+  transition: 1s;
+  /* margin: 20px;
+  padding: 10px; */
+}
+.redux2 {
+  border: 2px solid white;
+  border-radius: 50% 47% 40% 45% / 40% 47% 47% 42%;
+
+  transition: 1s;
+  /* margin: 20px;
+  padding: 10px; */
+}
+.redux4 {
+  border: 2px solid white;
+  border-radius: 43% 45% 41% 45% / 45% 37% 37% 12%;
+
+  transition: 1s;
+  /* margin: 20px;
+  padding: 10px; */
+}
+
+.redux5 {
+  border: 2px solid white;
+  border-radius: 33% 20% 50% 15% / 85% 71% 97% 72%;
+
+  transition: 1s;
+  /* margin: 20px;
+  padding: 10px; */
+}
+#title {
+  color: white;
+  transition: 1s;
+}
+.project-images {
+  border: 2px solid white;
+  width: 450px;
+  height: 290px;
+  margin-top: 20px;
+  margin-left: 80px;
+
+  border-radius: 7px;
+}
+.project-images img {
+  border-radius: 7px;
+}
+.img-btn button {
+  font-family: "Protest Revolution", sans-serif;
+  font-weight: 600;
+  text-align: center;
+  font-style: normal;
+  padding: 15px;
+  border-radius: 5px;
+  margin-left: 90px;
+  cursor: pointer;
+  border: 1px solid black;
+  border-radius: 33% 20% 50% 15% / 85% 71% 97% 72%;
+}
+.img-btn button:hover {
+  background-color: rgb(69, 116, 137);
+  color: white;
+  border: 1px solid white;
+  transition: 1s;
+}
+.img-btn {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 30px;
+}
+.skill-frontend {
+  padding: 10px;
+  padding-top: 0px;
+  margin-top: -69px;
+}
+.boc {
+  color: white;
+  padding: 10px;
+  margin: 10px;
+  /* border: 1px solid black; */
+}
+.skill-frontend h2 {
+  color: rgb(21, 91, 118);
+  background-color: white;
+  border-radius: 13% 10% 50% 15% / 15% 11% 37% 12%;
+}
+
+.skill-frontend h2 span {
+  color: #ddb726;
+}
+.boc:hover {
+  background-color: rgb(46, 46, 46);
+  cursor: pointer;
+  border-radius: 7px;
+  color: #ddb726;
+  box-shadow: 1px 1px 11px 1px rgb(37, 36, 36);
+  /* border: 1px solid rgb(69, 116, 137); */
+}
+
+.option {
+  text-shadow: 3px 4px 2px rgb(22, 92, 119);
+}
+/* Media Query */
+.any::-webkit-meter-optimum-value {
+  background-color: rgb(12, 97, 137);
+  border-radius: 10px;
+}
+@media only screen and (max-width: 1024px) and (min-width: 768px) {
+  .about {
+    width: 300px;
+  }
+  .goals .divv {
+    margin: 13px;
+  }
+  .fourth-page {
+    background-image: url(follow.jpg);
+    background-size: 450px;
+  }
+  .fourth-page .education {
+    width: 370px;
+    margin-left: 50px;
+  }
+
+  .fifth-page .pro-image,
+  .pro-img,
+  .project-images {
+    width: 300px;
+    height: 200px;
+  }
+  .pro-image,
+  .project-images {
+    margin-left: 10px;
+    margin-top: 50px;
+  }
+  .img-btn button {
+    margin-left: 10px;
+  }
+  .boc {
+    padding: 2px;
+  }
+  .education div {
+    margin: 10px;
+    padding: 3px;
+  }
+  .outer {
+    left: 20px;
+  }
+  .content-3 {
+    display: none;
+  }
+  .pro-content div {
+    padding: 0px;
+    margin: 4px;
+  }
+  .pro-content div p {
+    margin: 0px;
+  }
+  .image-last img {
+    width: 320px;
+    height: 380px;
+    position: relative;
+    left: 30px;
+  }
+}
