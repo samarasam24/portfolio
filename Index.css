@@ -6,7 +6,8 @@ html {
   font-weight: 400;
   text-align: center;
   font-style: normal;
-  background-color: rgb(110, 108, 108) !important;
+  /* background-color: rgb(163, 162, 162) !important; */
+  background-image: linear-gradient( to right ,rgb(122, 116, 116), rgb(90, 90, 236));
   overflow-x: hidden;
   
 }
