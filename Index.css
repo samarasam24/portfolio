@@ -6,21 +6,26 @@ html {
   font-weight: 400;
   text-align: center;
   font-style: normal;
-  background-color: black;
+  background-color: rgb(110, 108, 108) !important;
   overflow-x: hidden;
+}
+html{
+  overflow-y: scroll;
+  scrollbar-color: rgba(78, 78, 78, 0.692) transparent;
+  scrollbar-width: thin;
 }
 .flower {
   position: absolute;
   top: 0;
   right: 0px;
   margin-top: -50px;
-  /* position: fixed; */
+
   margin-right: -50px;
   position: fixed;
 }
 
 .card {
-  background-color: black;
+  /* background-color: black; */
   height: 100vh;
 }
 .sidnav {
@@ -89,7 +94,7 @@ a {
   display: flex;
 }
 .second-page {
-  background-color: black;
+  /* background-color: black; */
   display: flex;
 
   justify-content: center;
@@ -133,7 +138,7 @@ a {
   flex-direction: column;
   /* background-image: url(/cent.jpg); */
 
-  background: url("cent.jpg") center/cover no-repeat, black;
+  /* background: url("cent.jpg") center/cover no-repeat, black; */
   justify-content: center;
   align-items: center;
   height: 100vh;
@@ -169,7 +174,7 @@ a {
 }
 
 .goals .divv:hover {
-  background-color: black;
+  /* background-color: black; */
   color: white;
   border: 3px solid rgb(69, 116, 137);
   transition: 1s ease-in-out;
@@ -199,7 +204,7 @@ audio {
   color: #ddb726;
 }
 .fourth-page {
-  background-color: black;
+  /* background-color: black; */
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -248,7 +253,7 @@ audio {
   border-radius: 13% 15% 15% 75% / 25% 47% 27% 32%;
 }
 .fifth-page {
-  background-color: black;
+  /* background-color: black; */
   display: flex;
 
   justify-content: center;
@@ -330,7 +335,7 @@ audio {
   color: #ddb726;
 }
 .sixth-page {
-  background-color: black;
+  /* background-color: black; */
   display: flex;
   justify-content: space-around;
   align-items: center;
