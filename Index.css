@@ -1,3 +1,8 @@
+html{
+  overflow-y: scroll;
+  scrollbar-color: rgba(78, 78, 78, 0.692) transparent;
+  scrollbar-width: thin;
+}
 body,
 html {
   margin: 0;
@@ -8,6 +13,7 @@ html {
   font-style: normal;
   background-color: black;
   overflow-x: hidden;
+  
 }
 .flower {
   position: absolute;
