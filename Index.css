@@ -6,7 +6,7 @@ html {
   font-weight: 400;
   text-align: center;
   font-style: normal;
-  background-image: linear-gradient( to right ,rgb(122, 116, 116), rgb(90, 90, 236));
+  background-color: black;
   overflow-x: hidden;
 }
 html{
@@ -106,8 +106,8 @@ a {
 }
 
 .about-me {
-  font-family: "Protest Revolution", sans-serif;
-  font-weight: 400;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-optical-sizing: auto;
 
   font-style: normal;
   color: white;
