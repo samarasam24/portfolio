@@ -7,10 +7,10 @@ html {
   text-align: center;
   font-style: normal;
   /* background-color: rgb(163, 162, 162) !important; */
- background-color: black;
+  background-color: black;
   overflow-x: hidden;
 }
-html{
+html {
   overflow-y: scroll;
   scrollbar-color: rgba(78, 78, 78, 0.692) transparent;
   scrollbar-width: thin;
@@ -105,7 +105,6 @@ a {
 .about {
   width: 500px;
 }
-
 .about-me {
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   font-optical-sizing: auto;
@@ -118,6 +117,19 @@ a {
   padding: 50px;
   padding-top: 20px;
 }
+
+/* .about-me {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-optical-sizing: auto;
+
+  font-style: normal;
+  color: white;
+  width: 33.3%;
+  line-height: 30px;
+  text-align: start;
+  padding: 50px;
+  padding-top: 20px;
+} */
 .image1 {
   width: 33.3%;
   padding: 80px;
@@ -444,10 +456,9 @@ audio {
   color: white;
   border: 2px solid white;
   border-radius: 23% 45% 65% 75% / 65% 87% 97% 32%;
-position: relative;
+  position: relative;
   padding: 5px;
   margin-left: 100px;
-  
 }
 #abbr {
   color: white;
